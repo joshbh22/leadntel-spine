@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export default async (req, res) => {
   if (req.method !== "POST") {
     return res.status(405).json({ ok: false, error: "POST required" });
