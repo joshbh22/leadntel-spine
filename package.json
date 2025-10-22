@@ -1,0 +1,9 @@
+{
+  "name": "leadntel-spine",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "stripe": "^16.0.0"
+  }
+}
